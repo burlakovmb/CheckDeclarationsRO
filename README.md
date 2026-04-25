@@ -1,5 +1,4 @@
 # Declarations Checking
-# Declarations Checking
 
 [**EN**]
 ```en
