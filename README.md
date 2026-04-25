@@ -31,8 +31,9 @@ Notes for developers
 - DUK produces messages in Romanian. The parser aims to convert raw `.err.txt` into a list of structured error and warning objects, each containing a `code`, human-friendly `message` (in Romanian), and optional fields such as `field`, `rule`, `tax_type`, `rate`, `actual`, `expected`.
 - See `doc/spec_error_formatting.md` (RO) and `doc/spec_error_formatting_en.md` (EN) for the parsing specification.
 
-Contact
-Project maintained by the development team.
+IMPORTANT!!!
+If you would like to use this functionality in your commercial projects then contact me.
+Absolutly free for open source projects (non commercial usage). 
 ```
 
 [**RO**]
@@ -65,11 +66,8 @@ Note pentru dezvoltatori
 - DUK returnează mesaje în limba română. Parser-ul convertește textul brut din `.err.txt` într-o listă de obiecte structurate de erori și avertismente, fiecare având `code`, `message` (în română) și câmpuri opționale ca `field`, `rule`, `tax_type`, `rate`, `actual`, `expected`.
 - Vezi `doc/spec_error_formatting.md` (RO) și `doc/spec_error_formatting_en.md` (EN) pentru specificația parser-ului.
 
-Contact
-Proiect întreținut de echipa de dezvoltare.
+IMPORTANT!!!
+Dacă doriți să utilizați această funcționalitate în proiectele dvs. comerciale, contactați-mă.
+Absolut gratuit pentru proiecte open source (utilizare necomercială).
 ```
 Future improvements and team contributions are welcome.
-
-## ...to be continued...
-
-**API spec в OpenAPI (Swagger)**
