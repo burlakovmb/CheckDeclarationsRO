@@ -38,7 +38,7 @@ pytest -q
 ### Notes for developers
 
 - DUK produces messages in Romanian. The parser aims to convert raw `.err.txt` into a list of structured error and warning objects, each containing a `code`, human-friendly `message` (in Romanian), and optional fields such as `field`, `rule`, `tax_type`, `rate`, `actual`, `expected`.
-- See `doc/spec_error_formatting.md` (RO) and `doc/spec_error_formatting_en.md` (EN) for the parsing specification.
+- See [doc/spec_error_formatting_ro.md](doc/spec_error_formatting_ro.md) (RO) and [doc/spec_error_formatting_en.md](doc/spec_error_formatting_en.md) (EN) for the parsing specification.
 
 > [!IMPORTANT]
 > If you would like to use this functionality in your commercial projects — contact me.
@@ -80,7 +80,7 @@ pytest -q
 ### Note pentru dezvoltatori
 
 - DUK returnează mesaje în limba română. Parser-ul convertește textul brut din `.err.txt` într-o listă de obiecte structurate de erori și avertismente, fiecare având `code`, `message` (în română) și câmpuri opționale ca `field`, `rule`, `tax_type`, `rate`, `actual`, `expected`.
-- Vezi `doc/spec_error_formatting.md` (RO) și `doc/spec_error_formatting_en.md` (EN) pentru specificația parser-ului.
+- Vezi [doc/spec_error_formatting_ro.md](doc/spec_error_formatting_ro.md) (RO) și [doc/spec_error_formatting_en.md](doc/spec_error_formatting_en.md) (EN) pentru specificația parser-ului.
 
 > [!IMPORTANT]
 > Dacă doriți să utilizați această funcționalitate în proiectele dvs. comerciale, contactați-mă.
